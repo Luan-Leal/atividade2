@@ -1,0 +1,1 @@
+import Imc from "./script/imc.js";
