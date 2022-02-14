@@ -16,21 +16,18 @@
                 <div>
                     <p>Peso</p>
                 </div>
-                <div class="">
-                    <p>65</p>
-                </div>
                 <div>
-                    <input type="range" min="0" max="150">
+                    <input type="range" value="24" min="0" max="150" oninput="this.nextElementSibling.value = this.value">
+                    <output>24</output>
                 </div>
                 <div>
                     <p>Altura</p>
                 </div>
-                <div class="">
-                    <p>1.64</p>
-                </div>
                 <div>
-                    <input type="range" min="0" max="2.5">
+                    <input type="range" value="1.64" min="0" max="2.5" oninput="this.nextElementSibling.value = this.value">
+                    <output>1,64</output>
                 </div>
+                
                 <button type="button">Calcular</button>
             </main>
         </section>
