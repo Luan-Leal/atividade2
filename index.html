@@ -9,28 +9,36 @@
 <body>
     <main>
         <section>
-            <main>
-                <div>
-                    <h1>Calcule seu IMC</h1>
-                </div>
-                <div>
-                    <p>Peso</p>
-                </div>
-                <div>
-                    <input type="range" value="24" min="0" max="150" oninput="this.nextElementSibling.value = this.value">
-                    <output>24</output>
-                </div>
-                <div>
-                    <p>Altura</p>
-                </div>
-                <div>
-                    <input type="range" value="1.64" min="0" max="2.5" oninput="this.nextElementSibling.value = this.value">
-                    <output>1,64</output>
-                </div>
-                
-                <button type="button">Calcular</button>
-            </main>
+            <div>
+                <h1>Calcule seu IMC</h1>
+            </div>
+
+            <div>
+                <p>Peso</p>
+            </div>
+
+            <div>
+                <input type="range"  min="0" max="150" 
+                oninput="this.nextElementSibling.value = this.value" id="peso">
+                <output>65</output>
+            </div>
+
+            <div>
+                <p>Altura</p>
+            </div>
+
+            <div>
+                <input type="range" min="0" max="2.5" step="0.01" 
+                oninput="this.nextElementSibling.value = this.value" id="altura">
+                <output>1,64</output>
+            </div>
+            
+            <button type="button" id="button">Calcular</button>
+            <span id="resultado"></span>
+
         </section>
     </main>
+
+    <script src="./script/imc.js"></script>
 </body>
 </html>
