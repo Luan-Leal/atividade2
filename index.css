@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(116.82deg, rgba(247, 183, 24, 0.7) 0%, rgba(245, 197, 78, 0.6) 100%);
+
+}
+
+.imc-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.imc-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    height: 50%;
+    width: 50%;
+}
+
+.titulo h1 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    font-weight: 400;
+}
+
+.peso p {
+    display: flex;
+    justify-content: center;
+}
+
+.peso-input input {
+    background: white;
+} 
+
+.peso-input output {
+    color: orange;
+} 
+
+.peso-input {
+    display: flex;
+    justify-content: center;
+}
+
+.altura p {
+    display: flex;
+    justify-content: center;
+}
+
+.altura-input {
+    display: flex;
+    justify-content: center;
+}
+
+.altura-input output {
+    color: orange;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 1%;
+    width: 35%;
+}
